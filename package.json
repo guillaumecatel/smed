@@ -1,4 +1,11 @@
 {
   "name": "smed",
-  "version": "0.0.0"
+  "version": "0.0.0",
+  "scripts": {
+    "commitlint": "commitlint"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "20.3.0",
+    "@commitlint/config-conventional": "20.3.0"
+  }
 }
