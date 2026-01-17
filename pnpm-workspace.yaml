@@ -1,0 +1,20 @@
+packages:
+  - apps/*
+  - configs/*
+  - packages/*
+  - templates/*
+
+autoInstallPeers: true
+
+enablePrePostScripts: true
+
+engineStrict: true
+
+injectWorkspacePackages: true
+
+packageManagerStrict: true
+
+strictPeerDependencies: false
+
+syncInjectedDepsAfterScripts:
+  - build

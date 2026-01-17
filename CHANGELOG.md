@@ -19,6 +19,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Husky setup for Git hooks to automate pre-commit and commit-msg validations, enhancing code quality and commit standards
 
+- Pnpm workspace configuration with pnpm-workspace.yaml, lockfile settings, and package.json scripts to enforce pnpm usage, manage monorepo dependencies, and ensure consistent package management
+
 ### Changed
 
 ### Deprecated
