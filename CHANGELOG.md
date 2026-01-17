@@ -17,6 +17,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Commitlint setup with conventional commits configuration to enforce standardized commit messages and improve project maintainability
 
+- Husky setup for Git hooks to automate pre-commit and commit-msg validations, enhancing code quality and commit standards
+
 ### Changed
 
 ### Deprecated
