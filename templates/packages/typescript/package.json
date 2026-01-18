@@ -1,0 +1,56 @@
+{
+  "name": "template-package-typescript",
+  "version": "0.0.0",
+  "description": "A ready-to-use TypeScript package template for monorepos, including strict type utilities, runtime guards, and modern test setup.",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "author": "",
+  "homepage": "",
+  "repository": "",
+  "bugs": "",
+  "keywords": [],
+  "files": [
+    "./dist"
+  ],
+  "exports": {
+    ".": "./src/index.ts",
+    "./aliases": "./src/aliases.ts",
+    "./guards": "./src/guards.ts"
+  },
+  "publishConfig": {
+    "exports": {
+      "./aliases": {
+        "import": "./dist/aliases.js",
+        "require": "./dist/aliases.cjs",
+        "types": "./dist/aliases.d.ts"
+      },
+      "./guards": {
+        "import": "./dist/guards.js",
+        "require": "./dist/guards.cjs",
+        "types": "./dist/guards.d.ts"
+      },
+      ".": {
+        "import": "./dist/*.js",
+        "require": "./dist/*.cjs",
+        "types": "./dist/*.d.ts"
+      }
+    }
+  },
+  "scripts": {
+    "build": "tsdown",
+    "clean": "shx rm -rf {node_modules,.turbo,dist,coverage,tsconfig.tsbuildinfo}",
+    "dev": "tsdown --watch",
+    "test": "pnpm test:unit",
+    "test:unit": "vitest --coverage",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "4.0.16",
+    "tsdown": "0.18.4",
+    "typescript": "5.9.3",
+    "typescript-config": "workspace:*",
+    "vite-tsconfig-paths": "6.0.4",
+    "vitest": "4.0.16"
+  }
+}

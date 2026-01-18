@@ -2,7 +2,7 @@ packages:
   - apps/*
   - configs/*
   - packages/*
-  - templates/*
+  - templates/**
 
 autoInstallPeers: true
 
@@ -18,3 +18,6 @@ strictPeerDependencies: false
 
 syncInjectedDepsAfterScripts:
   - build
+
+onlyBuiltDependencies:
+  - esbuild
