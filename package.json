@@ -20,7 +20,8 @@
     "syncpack": "syncpack format && syncpack list-mismatches",
     "syncpack:fix": "syncpack format && syncpack fix-mismatches",
     "test": "pnpm run -r test",
-    "test:unit": "pnpm run -r test:unit"
+    "test:unit": "pnpm run -r test:unit",
+    "typecheck": "pnpm run -r typecheck"
   },
   "devDependencies": {
     "@commitlint/cli": "20.3.0",
