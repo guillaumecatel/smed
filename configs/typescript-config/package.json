@@ -1,0 +1,16 @@
+{
+  "name": "typescript-config",
+  "version": "0.0.0",
+  "description": "Shared TypeScript configuration package for the monorepo",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "keywords": [
+    "tsconfig",
+    "typescript"
+  ],
+  "exports": {
+    "./base": "./base.json",
+    "./base.json": "./base.json"
+  }
+}
