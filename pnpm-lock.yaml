@@ -28,6 +28,8 @@ importers:
         specifier: 13.0.4
         version: 13.0.4(typescript@5.9.3)
 
+  configs/typescript-config: {}
+
 packages:
 
   '@babel/code-frame@7.28.6':
