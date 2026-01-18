@@ -25,6 +25,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Prettier configuration with custom rules, ignore file, VS Code integration, and scripts for formatting and checking code style across the monorepo
 
+- Created shared package `typescript-config` to provide reusable TypeScript configuration files (tsconfig) for the monorepo, starting with a base config and designed to support future configs for React, Next.js, Astro, etc.
+
 ### Changed
 
 ### Deprecated
