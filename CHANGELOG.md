@@ -21,6 +21,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Pnpm workspace configuration with pnpm-workspace.yaml, lockfile settings, and package.json scripts to enforce pnpm usage, manage monorepo dependencies, and ensure consistent package management
 
+- Syncpack configuration for synchronizing package versions and dependencies across the monorepo to maintain consistency and avoid version mismatches
+
 ### Changed
 
 ### Deprecated
