@@ -23,6 +23,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Syncpack configuration for synchronizing package versions and dependencies across the monorepo to maintain consistency and avoid version mismatches
 
+- Prettier configuration with custom rules, ignore file, VS Code integration, and scripts for formatting and checking code style across the monorepo
+
 ### Changed
 
 ### Deprecated
