@@ -1,10 +1,10 @@
 # Smed 🔨
 
-**Smed *(blacksmith in Danish)* is a production-grade monorepo template forged for building SaaS applications.**
+**Smed _(blacksmith in Danish)_ is a production-grade monorepo template forged for building SaaS applications.**
 
 Built from years of production experience, Smed provides an opinionated foundation that balances speed with long-term maintainability. Unlike quick starters that leave you struggling at scale, Smed is designed for multiple apps, shared packages, robust CI/CD, and team collaboration from day one.
 
-*Smed is the result of years spent building, refactoring, and maintaining web applications in production. Its goal is simple: help you build SaaS products with confidence, balancing speed, quality, and architectural clarity from day one.*
+_Smed is the result of years spent building, refactoring, and maintaining web applications in production. Its goal is simple: help you build SaaS products with confidence, balancing speed, quality, and architectural clarity from day one._
 
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/guillaumecatel/smed)
 [![Node.js](https://img.shields.io/badge/Node.js-%3E%3D24.0.0-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
@@ -27,26 +27,33 @@ Built from years of production experience, Smed provides an opinionated foundati
 Smed is built around a clear set of principles derived from real-world SaaS development rather than theoretical best practices. These principles guide both the technical choices and the overall developer experience.
 
 ### 1. Production-first, not demo-first
+
 Smed is not a playground or a proof-of-concept template. Every tool, configuration, and convention is chosen with production usage in mind: CI/CD, versioning, deployment, linting, type safety, and long-term maintenance.
 
 ### 2. Opinionated, but extensible
+
 Smed makes decisions so you don’t have to start from a blank page. Folder structure, tooling, and conventions are predefined. However, nothing is locked: you can adapt, replace, or eject parts of the system as your needs evolve.
 
 ### 3. Monorepo as a product architecture
+
 The monorepo is not just a convenience—it is the core architectural choice. Applications and packages are designed to coexist, share tooling, and evolve together with clear boundaries and explicit dependencies.
 
 ### 4. Automation over documentation
+
 Repetitive and error-prone tasks (creating apps, packages, syncing configs, updating workflows) are automated through the `smed` CLI. The goal is to reduce cognitive load and avoid configuration drift.
 
 ### 5. Scalability over shortcuts
+
 Smed favors patterns that scale across teams and products: shared configs, strict typing, predictable structure, and explicit ownership. It may feel heavier than a simple starter—but it pays off as the project grows.
 
 ### 6. GitHub-native by default
+
 Smed favors GitHub-native registries by default to reduce external dependencies and simplify authentication, auditing, and automation.
 
 Applications are built and distributed as Docker images via the GitHub Container Registry (GHCR), while packages are published to the GitHub npm registry associated with the repository.
 
 ### 7. Ejectable by design
+
 Smed is a tool, not a cage. At any point, you can eject Smed and keep a clean, fully functional monorepo without generators, templates, or CLI dependencies.
 
 ---
@@ -88,7 +95,7 @@ Edit the `.smedrc` file to define your organization and repository metadata. Thi
     "scope": "myorganization",
     "name": "<my-organization>",
     "email": "<contact@myorganization.com>"
-  } ,
+  },
   "repository": {
     "url": "<https://github.com/my-organization/my-repository>",
     "type": "git"
