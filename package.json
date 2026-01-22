@@ -19,6 +19,7 @@
     "prepare": "husky",
     "syncpack": "syncpack format && syncpack list-mismatches",
     "syncpack:fix": "syncpack format && syncpack fix-mismatches",
+    "syncpack:update": "syncpack update",
     "test": "pnpm run -r test",
     "test:e2e": "pnpm run -r test:e2e",
     "test:integration": "pnpm run -r test:integration",
@@ -26,11 +27,11 @@
     "typecheck": "pnpm run -r typecheck"
   },
   "devDependencies": {
-    "@commitlint/cli": "20.3.0",
-    "@commitlint/config-conventional": "20.3.0",
-    "@types/node": "25.0.9",
+    "@commitlint/cli": "20.3.1",
+    "@commitlint/config-conventional": "20.3.1",
+    "@types/node": "25.0.10",
     "husky": "9.1.7",
-    "prettier": "3.8.0",
+    "prettier": "3.8.1",
     "prettier-plugin-astro": "0.14.1",
     "prettier-plugin-sh": "0.18.0",
     "prettier-plugin-tailwindcss": "0.7.2",
