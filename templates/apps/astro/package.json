@@ -33,6 +33,7 @@
     "satori": "0.19.1",
     "satori-html": "0.3.2",
     "tailwindcss": "4.1.18",
+    "tailwindcss-config": "workspace:*",
     "typescript": "5.9.3",
     "typescript-config": "workspace:*",
     "vite-tsconfig-paths": "6.0.4",
