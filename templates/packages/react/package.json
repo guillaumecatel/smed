@@ -1,0 +1,65 @@
+{
+  "name": "template-package-react",
+  "version": "0.0.0",
+  "description": "A ready-to-use React + TypeScript package template for monorepos, including strict type utilities, reusable hooks/components, and modern test setup.",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "author": "",
+  "homepage": "",
+  "repository": "",
+  "bugs": "",
+  "keywords": [],
+  "files": [
+    "./dist"
+  ],
+  "exports": {
+    ".": "./src/index.ts",
+    "./button": "./src/Button.tsx",
+    "./use-counter": "./src/useCounter.ts"
+  },
+  "publishConfig": {
+    "exports": {
+      "./button": {
+        "import": "./dist/Button.js",
+        "require": "./dist/Button.cjs",
+        "types": "./dist/Button.d.ts"
+      },
+      "./use-counter": {
+        "import": "./dist/useCounter.js",
+        "require": "./dist/useCounter.cjs",
+        "types": "./dist/useCounter.d.ts"
+      },
+      ".": {
+        "import": "./dist/*.js",
+        "require": "./dist/*.cjs",
+        "types": "./dist/*.d.ts"
+      }
+    }
+  },
+  "scripts": {
+    "build": "tsdown",
+    "clean": "shx rm -rf {node_modules,.turbo,dist,coverage,tsconfig.tsbuildinfo}",
+    "dev": "tsdown --watch",
+    "test": "pnpm test:unit",
+    "test:unit": "vitest --coverage",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": ">=19",
+    "react-dom": ">=19"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "6.9.1",
+    "@testing-library/react": "16.3.2",
+    "@types/react": "19.2.9",
+    "@types/react-dom": "19.2.3",
+    "@vitest/coverage-v8": "4.0.16",
+    "jsdom": "27.4.0",
+    "tsdown": "0.20.0",
+    "typescript": "5.9.3",
+    "typescript-config": "workspace:*",
+    "vite-tsconfig-paths": "6.0.4",
+    "vitest": "4.0.16"
+  }
+}
