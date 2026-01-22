@@ -44,6 +44,12 @@ importers:
         specifier: 13.0.4
         version: 13.0.4(typescript@5.9.3)
 
+  configs/tailwindcss-config:
+    dependencies:
+      tailwindcss:
+        specifier: '>=4.0.0'
+        version: 4.1.18
+
   configs/typescript-config: {}
 
   templates/apps/astro:
@@ -97,6 +103,9 @@ importers:
       tailwindcss:
         specifier: 4.1.18
         version: 4.1.18
+      tailwindcss-config:
+        specifier: workspace:*
+        version: link:../../../configs/tailwindcss-config
       typescript:
         specifier: 5.9.3
         version: 5.9.3
