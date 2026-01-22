@@ -29,13 +29,13 @@ This package provides reusable TypeScript configuration files (`tsconfig.json`) 
    }
    ```
 
-3. **Future configs**
+3. **Other configs**
 
-   As the monorepo evolves, additional configs (e.g., `react.json`, `next.json`, `astro.json`) will be provided in this package. You will be able to extend them in the same way:
+   As the monorepo evolves, additional configs (e.g., `react.json`, `next.json`, `astro.json`) are provided in this package. You be able to extend them in the same way:
 
    ```json
    {
-     "extends": "typescript-config/react"
+     "extends": "typescript-config/astro"
    }
    ```
 

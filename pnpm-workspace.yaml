@@ -21,3 +21,4 @@ syncInjectedDepsAfterScripts:
 
 onlyBuiltDependencies:
   - esbuild
+  - sharp

@@ -10,6 +10,8 @@
     "typescript"
   ],
   "exports": {
+    "./astro": "./astro.json",
+    "./astro.json": "./astro.json",
     "./base": "./base.json",
     "./base.json": "./base.json"
   }
