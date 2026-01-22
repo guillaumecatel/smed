@@ -51,10 +51,10 @@ export default [
     ],
   },
   {
-    pattern: '/default.og',
+    pattern: '/og-dynamic.png',
     localized: [
-      ['fr', '/fr/default.og'],
-      ['en', '/default.og'],
+      ['fr', '/fr/og-dynamic.png'],
+      ['en', '/og-dynamic.png'],
     ],
   },
   {
