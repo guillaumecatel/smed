@@ -1,0 +1,21 @@
+{
+  "name": "tailwindcss-config",
+  "version": "0.0.0",
+  "description": "Shared Tailwind CSS configuration package for the monorepo",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "keywords": [
+    "tailwindcss",
+    "css"
+  ],
+  "exports": {
+    ".": "./index.css"
+  },
+  "scripts": {
+    "clean": "shx rm -rf node_modules"
+  },
+  "peerDependencies": {
+    "tailwindcss": ">=4.0.0"
+  }
+}
