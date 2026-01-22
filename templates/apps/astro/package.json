@@ -9,7 +9,7 @@
     "clean": "shx rm -rf {node_modules,.turbo,dist,coverage,.astro,tsconfig.tsbuildinfo,playwright-report,test-results}",
     "dev": "astro dev",
     "start": "node ./dist/server/entry.mjs",
-    "test": "test:integration && test:e2e",
+    "test": "pnpm test:integration && pnpm test:e2e",
     "test:e2e": "pnpm exec playwright test",
     "test:integration": "vitest --coverage",
     "typecheck": "astro check"
@@ -19,16 +19,16 @@
   },
   "devDependencies": {
     "@astrojs/check": "0.9.6",
-    "@astrojs/node": "9.5.1",
-    "@inlang/paraglide-js": "2.8.0",
+    "@astrojs/node": "9.5.2",
+    "@inlang/paraglide-js": "2.9.1",
     "@playform/compress": "0.2.1",
     "@playwright/test": "1.57.0",
     "@tailwindcss/vite": "4.1.18",
     "@types/compression": "1.8.1",
     "@types/express": "5.0.6",
     "@types/node": "25.0.9",
-    "@vitest/coverage-v8": "4.0.16",
-    "astro": "5.16.9",
+    "@vitest/coverage-v8": "4.0.18",
+    "astro": "5.16.14",
     "astro-capo": "0.0.1",
     "satori": "0.19.1",
     "satori-html": "0.3.2",
@@ -36,6 +36,6 @@
     "typescript": "5.9.3",
     "typescript-config": "workspace:*",
     "vite-tsconfig-paths": "6.0.4",
-    "vitest": "4.0.16"
+    "vitest": "4.0.18"
   }
 }

@@ -7,6 +7,7 @@ export default getViteConfig({
   test: {
     globals: true,
     setupFiles: ['tests/integration/setup.ts'],
+    include: ['tests/integration/**/*.test.ts'],
     typecheck: {
       tsconfig: 'tsconfig.test.json',
     },
