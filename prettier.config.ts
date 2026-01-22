@@ -10,6 +10,15 @@ export default {
   jsxSingleQuote: true,
   bracketSpacing: true,
   bracketSameLine: true,
-  overrides: [],
-  plugins: ['prettier-plugin-sh'],
+  overrides: [
+    {
+      files: '*.astro',
+      options: { parser: 'astro' },
+    },
+  ],
+  plugins: [
+    'prettier-plugin-astro',
+    'prettier-plugin-sh',
+    'prettier-plugin-tailwindcss',
+  ],
 } as Config

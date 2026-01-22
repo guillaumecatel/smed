@@ -1,0 +1,22 @@
+---
+import { m } from '@/i18n/messages'
+import { locales, localizeHref } from '@/i18n/runtime'
+
+import DefaultLayout from '@/layouts/Default.astro'
+
+const metadata = {
+  title: m.cookie_policy(),
+  description: m.sample_text(),
+  alternates: locales.map((locale) => ({
+    locale,
+    href: localizeHref('/cookie-policy', { locale }),
+  })),
+}
+---
+
+<DefaultLayout metadata={metadata}>
+  <main id={m.main_content_anchor()}>
+    <h1>{metadata.title}</h1>
+    <p>{metadata.description}</p>
+  </main>
+</DefaultLayout>

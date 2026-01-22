@@ -1,3 +1,10 @@
 {
-  "recommendations": ["EditorConfig.EditorConfig", "esbenp.prettier-vscode"]
+  "recommendations": [
+    "EditorConfig.EditorConfig",
+    "astro-build.astro-vscode",
+    "esbenp.prettier-vscode",
+    "inlang.vs-code-extension",
+    "playwright.playwright",
+    "vitest.explorer"
+  ]
 }

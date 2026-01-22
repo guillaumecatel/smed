@@ -1,0 +1,18 @@
+{
+  "about_us": "À propos de nous",
+  "accessibility": "Accessibilité",
+  "cookie_policy": "Politique de cookies",
+  "go_to_homepage": "Aller à la page d'accueil",
+  "homepage": "Page d'accueil",
+  "language_selector": "Sélecteur de langue",
+  "legal_navigation": "Navigation légale",
+  "main_content_anchor": "contenu-principal",
+  "main_navigation": "Navigation principale",
+  "not_found": "Non trouvé",
+  "not_found_description": "La page que vous recherchez n'existe pas ou a été déplacée",
+  "privacy_policy": "Politique de confidentialité",
+  "sample_text": "Ceci est un texte d'exemple pour démontrer la fonctionnalité de localisation dans l'application.",
+  "show_this_document_translated_in": "Afficher ce document traduit en {languageName}",
+  "skip_to_main_content": "Passer au contenu principal",
+  "terms_and_conditions": "Termes et conditions"
+}

@@ -1,0 +1,28 @@
+---
+import Footer from '@/components/Footer.astro'
+import Header from '@/components/Header.astro'
+
+import AccessibilityShortcuts from '@/layouts/shared/AccessibilityShortcuts.astro'
+import Body from '@/layouts/shared/Body.astro'
+import Document from '@/layouts/shared/Document.astro'
+import Head, { type Props as HeadProps } from '@/layouts/shared/Head.astro'
+import Html from '@/layouts/shared/Html.astro'
+
+interface Props {
+  metadata: HeadProps
+}
+
+const { metadata } = Astro.props
+---
+
+<Document>
+  <Html>
+    <Head {...metadata} />
+    <Body>
+      <AccessibilityShortcuts />
+      <Header />
+      <slot transition:animate='fade' />
+      <Footer />
+    </Body>
+  </Html>
+</Document>

@@ -1,5 +1,14 @@
+.astro/
+/playwright/.auth/
+blob-report/
 coverage/
 dist/
 node_modules/
+playwright-report/
+playwright/.cache/
+test-results/
 
-tsconfig.tsbuildinfo
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+vite.config.ts.timestamp-*

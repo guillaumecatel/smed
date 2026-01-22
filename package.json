@@ -21,6 +21,8 @@
     "syncpack:fix": "syncpack format && syncpack fix-mismatches",
     "test": "pnpm run -r test",
     "test:unit": "pnpm run -r test:unit",
+    "test:integration": "pnpm run -r test:integration",
+    "test:e2e": "pnpm run -r test:e2e",
     "typecheck": "pnpm run -r typecheck"
   },
   "devDependencies": {
@@ -29,7 +31,9 @@
     "@types/node": "25.0.9",
     "husky": "9.1.7",
     "prettier": "3.8.0",
+    "prettier-plugin-astro": "0.14.1",
     "prettier-plugin-sh": "0.18.0",
+    "prettier-plugin-tailwindcss": "0.7.2",
     "shx": "0.4.0",
     "syncpack": "13.0.4"
   }
