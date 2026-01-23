@@ -41,6 +41,8 @@
     "build": "tsdown",
     "clean": "shx rm -rf {node_modules,.turbo,dist,coverage,tsconfig.tsbuildinfo}",
     "dev": "tsdown --watch",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "test": "pnpm test:unit",
     "test:unit": "vitest --coverage",
     "typecheck": "tsc --noEmit"
@@ -54,12 +56,14 @@
     "@testing-library/react": "16.3.2",
     "@types/react": "19.2.9",
     "@types/react-dom": "19.2.3",
-    "@vitest/coverage-v8": "4.0.16",
+    "@vitest/coverage-v8": "4.0.18",
+    "eslint-config": "workspace:*",
+    "eslint-config-react": "workspace:*",
     "jsdom": "27.4.0",
     "tsdown": "0.20.0",
     "typescript": "5.9.3",
     "typescript-config": "workspace:*",
     "vite-tsconfig-paths": "6.0.4",
-    "vitest": "4.0.16"
+    "vitest": "4.0.18"
   }
 }
