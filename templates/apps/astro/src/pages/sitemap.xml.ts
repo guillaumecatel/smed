@@ -1,7 +1,8 @@
 import type { APIRoute } from 'astro'
 
-import { baseLocale, locales, localizeHref } from '@/i18n/runtime'
 import type { SiteMapChangeFrequency } from '@/types'
+
+import { baseLocale, locales, localizeHref } from '@/i18n/runtime'
 
 const createStaticSitemapEntry = (
   pathname: string,

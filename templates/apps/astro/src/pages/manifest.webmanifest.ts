@@ -1,7 +1,6 @@
 import type { APIRoute } from 'astro'
 
 import config from '@/config'
-
 import { m } from '@/i18n/messages'
 import { getLocale, localizeHref } from '@/i18n/runtime'
 
