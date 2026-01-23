@@ -27,6 +27,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Created shared package `typescript-config` to provide reusable TypeScript configuration files (tsconfig) for the monorepo, starting with a base config and designed to support future configs for React, Next.js, Astro, etc.
 
+- Created template package `react` for reusable React + TypeScript components and hooks
+
+- Created app template `astro` for modern Astro applications with i18n, SEO, PWA, and dynamic OpenGraph support
+
+- Added shared TailwindCSS configuration package for consistent styling and base CSS across the monorepo
+
+- Added shared ESLint configuration packages: base, React, Astro, and all-in-one aggregator for consistent linting and IDE support
+
 ### Changed
 
 ### Deprecated
