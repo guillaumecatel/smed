@@ -21,4 +21,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Security
 
-[v0.0.0]: https://github.com/guillaumecatel/smed/configs/tailwindcss-config/compare/v0.0.0...HEAD
+[v0.0.0]: https://github.com/guillaumecatel/smed/configs/eslint-config-all/compare/v0.0.0...HEAD
