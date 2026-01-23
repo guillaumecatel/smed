@@ -2,6 +2,7 @@
   "recommendations": [
     "EditorConfig.EditorConfig",
     "astro-build.astro-vscode",
+    "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
     "inlang.vs-code-extension",
     "playwright.playwright",
