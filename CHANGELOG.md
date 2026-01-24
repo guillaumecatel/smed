@@ -37,6 +37,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Added Turborepo configuration to the monorepo for efficient task orchestration, caching, and improved developer experience across all packages and apps
 
+- Added `lint-staged` to improve pre-commit code quality checks.
+
 ### Changed
 
 ### Deprecated
