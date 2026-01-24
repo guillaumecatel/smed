@@ -1,5 +1,12 @@
+.astro/
 .git/
 .husky/
+.turbo/
+coverage/
+i18n/
 node_modules/
+playwright-report/
+project.inlang/
+test-results/
 
 pnpm-lock.yaml

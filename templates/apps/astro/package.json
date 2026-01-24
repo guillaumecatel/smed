@@ -11,7 +11,6 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "start": "node ./dist/server/entry.mjs",
-    "test": "pnpm test:integration && pnpm test:e2e",
     "test:e2e": "pnpm exec playwright test",
     "test:integration": "vitest --coverage",
     "typecheck": "astro check"

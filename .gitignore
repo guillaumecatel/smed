@@ -1,4 +1,5 @@
 .astro/
+.turbo/
 /playwright/.auth/
 blob-report/
 coverage/

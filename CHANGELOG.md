@@ -35,6 +35,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Added shared ESLint configuration packages: base, React, Astro, and all-in-one aggregator for consistent linting and IDE support
 
+- Added Turborepo configuration to the monorepo for efficient task orchestration, caching, and improved developer experience across all packages and apps
+
 ### Changed
 
 ### Deprecated
