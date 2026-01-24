@@ -43,7 +43,6 @@
     "dev": "tsdown --watch",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "test": "pnpm test:unit",
     "test:unit": "vitest --coverage",
     "typecheck": "tsc --noEmit"
   },

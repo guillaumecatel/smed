@@ -6,6 +6,7 @@
     "esbenp.prettier-vscode",
     "inlang.vs-code-extension",
     "playwright.playwright",
+    "vercel.turbo-vsc",
     "vitest.explorer"
   ]
 }

@@ -12,6 +12,7 @@ const astro = [
       parserOptions: {
         parser: parserTs,
         extraFileExtensions: [GLOB_ASTRO],
+        tsconfigRootDir: import.meta.dirname,
       },
     },
   },

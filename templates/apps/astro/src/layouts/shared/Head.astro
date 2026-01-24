@@ -6,7 +6,6 @@ import config from '@/config'
 import { baseLocale, getLocale, localizeHref } from '@/i18n/runtime'
 import type { AlternativeHrefLang } from '@/types'
 
-
 export interface Props {
   title?: string
   description?: string
@@ -45,7 +44,11 @@ const pageTitle = title ? ` ${title} | ${config.name}` : config.name
     name='description'
     content={description}
   />
-  <link rel="alternate" hreflang="x-default" href={localizeHref('', { locale: baseLocale })} />
+  <link
+    rel='alternate'
+    hreflang='x-default'
+    href={localizeHref('', { locale: baseLocale })}
+  />
   {
     alternates.map((locale) => (
       <link
@@ -67,12 +70,12 @@ const pageTitle = title ? ` ${title} | ${config.name}` : config.name
   />
   <meta
     name='theme-color'
-    content="#ffffff"
+    content='#ffffff'
     media='(prefers-color-scheme: light)'
   />
   <meta
     name='theme-color'
-    content="#000000"
+    content='#000000'
     media='(prefers-color-scheme: dark)'
   />
   <meta

@@ -9,24 +9,24 @@
     "pnpm": ">=10.0.0"
   },
   "scripts": {
-    "build": "pnpm run -r build",
-    "clean": "pnpm run -r clean",
+    "build": "turbo run build",
+    "clean": "turbo run clean && shx rm -rf node_modules",
     "commitlint": "commitlint",
-    "dev": "pnpm run -r dev",
+    "dev": "turbo run dev",
     "format": "prettier --check .",
     "format:fix": "prettier --write .",
-    "lint": "pnpm run -r lint",
-    "lint:fix": "pnpm run -r lint:fix",
+    "lint": "turbo run lint",
+    "lint:fix": "turbo run lint:fix",
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky",
     "syncpack": "syncpack format && syncpack list-mismatches",
     "syncpack:fix": "syncpack format && syncpack fix-mismatches",
     "syncpack:update": "syncpack update",
-    "test": "pnpm run -r test",
-    "test:e2e": "pnpm run -r test:e2e",
-    "test:integration": "pnpm run -r test:integration",
-    "test:unit": "pnpm run -r test:unit",
-    "typecheck": "pnpm run -r typecheck"
+    "test": "turbo run test:unit test:integration test:e2e",
+    "test:e2e": "turbo run test:e2e",
+    "test:integration": "turbo run test:integration",
+    "test:unit": "turbo run test:unit",
+    "typecheck": "turbo run typecheck"
   },
   "devDependencies": {
     "@commitlint/cli": "20.3.1",
@@ -40,7 +40,8 @@
     "prettier-plugin-sh": "0.18.0",
     "prettier-plugin-tailwindcss": "0.7.2",
     "shx": "0.4.0",
-    "syncpack": "13.0.4"
+    "syncpack": "13.0.4",
+    "turbo": "2.7.5"
   },
   "pnpm": {
     "overrides": {

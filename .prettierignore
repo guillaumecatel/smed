@@ -1,5 +1,9 @@
+.astro/
 .git/
 .husky/
+coverage/
+i18n/
 node_modules/
+project.inlang/
 
 pnpm-lock.yaml
