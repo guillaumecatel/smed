@@ -23,7 +23,7 @@
     "@astrojs/node": "9.5.2",
     "@inlang/paraglide-js": "2.9.1",
     "@playform/compress": "0.2.1",
-    "@playwright/test": "1.57.0",
+    "@playwright/test": "1.58.0",
     "@tailwindcss/vite": "4.1.18",
     "@types/compression": "1.8.1",
     "@types/express": "5.0.6",
@@ -39,7 +39,7 @@
     "tailwindcss-config": "workspace:*",
     "typescript": "5.9.3",
     "typescript-config": "workspace:*",
-    "vite-tsconfig-paths": "6.0.4",
+    "vite-tsconfig-paths": "6.0.5",
     "vitest": "4.0.18"
   }
 }
