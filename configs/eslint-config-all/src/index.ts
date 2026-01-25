@@ -1,6 +1,7 @@
 import base from 'eslint-config'
 import astro from 'eslint-config-astro'
 import react from 'eslint-config-react'
+import storybook from 'eslint-config-storybook'
 
 /**
  * Complete ESLint configuration for root workspace
@@ -8,4 +9,4 @@ import react from 'eslint-config-react'
  *
  * Order matters: Astro LAST to ensure its parser takes precedence for .astro files
  */
-export default [...base, ...react, ...astro]
+export default [...base, ...react, ...storybook, ...astro]
