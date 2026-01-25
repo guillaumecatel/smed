@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-all",
+  "name": "eslint-config-storybook",
   "version": "0.0.0",
   "type": "module",
   "private": true,
@@ -13,9 +13,6 @@
     "eslint": ">=9.0.0"
   },
   "dependencies": {
-    "eslint-config": "workspace:*",
-    "eslint-config-astro": "workspace:*",
-    "eslint-config-react": "workspace:*",
-    "eslint-config-storybook": "workspace:*"
+    "eslint-plugin-storybook": "10.1.11"
   }
 }

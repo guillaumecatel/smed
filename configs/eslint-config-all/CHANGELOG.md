@@ -11,6 +11,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial release of `eslint-config-all` package for the monorepo, providing all Eslint configurations intended for use at the root of the monorepo. It aggregates all relevant configs (base, React, Astro, etc.) to ensure that IDEs (like VS Code) have access to all rules, plugins, and parser settings for every file type in the workspace.
 
+## [v0.1.0] - 2026-01-25
+
+### Added
+
+- Added `eslint-config-storybook` for Storybook/React projects.
+- Integrated `eslint-config-storybook` into the aggregated config.
+
 ### Changed
 
 ### Deprecated
