@@ -10,7 +10,7 @@
   },
   "scripts": {
     "build": "turbo run build",
-    "clean": "turbo run clean && shx rm -rf node_modules",
+    "clean": "turbo run clean && shx rm -rf {node_modules,.turbo}",
     "commitlint": "commitlint",
     "dev": "turbo run dev",
     "format": "prettier --check .",
