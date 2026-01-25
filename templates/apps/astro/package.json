@@ -10,6 +10,7 @@
     "dev": "astro dev",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
+    "postinstall": "pnpm exec playwright install",
     "start": "node ./dist/server/entry.mjs",
     "test:e2e": "pnpm exec playwright test",
     "test:integration": "vitest --coverage",
