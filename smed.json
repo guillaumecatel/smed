@@ -1,9 +1,16 @@
 {
+  "cli": {
+    "command": "smed",
+    "paths": {
+      "apps/*": ["./templates/apps/*"],
+      "packages/*": ["./templates/packages/*"]
+    }
+  },
   "organization": {
     "scope": "myorganization",
     "name": "<my-organization>",
     "email": "<contact@myorganization.com>"
-  } ,
+  },
   "repository": {
     "url": "<https://github.com/my-organization/my-repository>",
     "type": "git"

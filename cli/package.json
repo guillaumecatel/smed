@@ -1,0 +1,57 @@
+{
+  "name": "cli",
+  "version": "0.0.0",
+  "description": "A command line interface for monorepo",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "author": "",
+  "homepage": "",
+  "repository": "",
+  "bugs": "",
+  "keywords": [],
+  "bin": {
+    "smed": "./dist/index.js"
+  },
+  "files": [
+    "./dist"
+  ],
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "publishConfig": {
+    "exports": {
+      ".": {
+        "import": "./dist/*.js",
+        "require": "./dist/*.cjs",
+        "types": "./dist/*.d.ts"
+      }
+    }
+  },
+  "scripts": {
+    "build": "tsdown",
+    "clean": "shx rm -rf {node_modules,.turbo,dist,coverage,tsconfig.tsbuildinfo}",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test:unit": "vitest --coverage",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "8.2.0",
+    "chalk": "5.6.2",
+    "commander": "14.0.2",
+    "fs-extra": "11.3.3",
+    "globby": "16.1.0",
+    "ora": "9.1.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "11.0.4",
+    "@vitest/coverage-v8": "4.0.18",
+    "eslint-config": "workspace:*",
+    "tsdown": "0.20.1",
+    "typescript": "5.9.3",
+    "typescript-config": "workspace:*",
+    "vite-tsconfig-paths": "6.0.5",
+    "vitest": "4.0.18"
+  }
+}
