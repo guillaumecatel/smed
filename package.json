@@ -19,6 +19,7 @@
     "lint:fix": "turbo run lint:fix",
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky",
+    "smed": "tsx ./cli/src/bin.ts",
     "syncpack": "syncpack format && syncpack list-mismatches",
     "syncpack:fix": "syncpack format && syncpack fix-mismatches",
     "syncpack:update": "syncpack update",
@@ -42,6 +43,7 @@
     "prettier-plugin-tailwindcss": "0.7.2",
     "shx": "0.4.0",
     "syncpack": "13.0.4",
+    "tsx": "4.21.0",
     "turbo": "2.7.6"
   },
   "pnpm": {

@@ -1,5 +1,6 @@
 packages:
   - apps/*
+  - cli/
   - configs/*
   - packages/*
   - templates/**
